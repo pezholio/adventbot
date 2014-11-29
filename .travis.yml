@@ -1,0 +1,17 @@
+language: ruby
+rvm:
+- 2.1.4
+deploy:
+  provider: heroku
+  api_key:
+    secure: ZsGkNQVhgg8lfwgSaebqH56BS2QLjtCZVxHiIXj+VN9zHTMgTaGfNypwc8oDCosXkXF+0spyj4KdZt3EGel2MVyVAjSUxXCCKPvPwmhHeOieedjz9djoGSYDaeCK0E65U+Wrwh+meobIFNtfM/1EyBi9V2CT6yxGuZ7nkGB7P1c=
+  app: adventbot
+  on:
+    repo: pezholio/adventbot
+env:
+  global:
+  - secure: S5mBw/tl0lQwNfeFUG3NNSWI6VLlZ7sYscsLjcaBOdd+2FusGdMt5rC4/hXoWneI3E74zYmPyrvhcFNWDdJxt3rAAD3YNdoWUe3LnU4uegG1toiIisl20e9tYy8J4QUbQeBsyBl10R5XqZ6GxQE3LHw9wVuaZEoEDbUs3TCH1eo=
+  - secure: EHjKGzsEYYqAiOUgtxBGmtsEH2BhGnTblv64lrF0opmSqVX42HBlNouiB5NiyyhOd2QbN6lZtCnPzDSGTavBEU33D/mszrI+aoV16jwXIU0ivSyg3O8gEMezaRjWCPedg0XN1KHcI8D5OxLk0QJjlMPcqzHpxNBTGaXvKVewCUs=
+  - secure: ZRdW1BSP1SnAcJPUJZzNBCo2Ja92Q4INYOlhFQu0BZ4H8ui65pVOZWSjzxj8QwUHx39Gwzqd4SoSAWQqjZwg4uJDfc0JnL85FggHDk85O1t4UiXCtCBYDUxyCPH2EzhDKl78bHDBkPhyywGdv7NzwWrbKh0uIueAG/JUF6YN4Tc=
+dd:
+  secure: CwT1vkU1P2ovp+/ejGlvGnSNdOtJFfdsMxmWZQkBpNq831e4PnS9R+JYk0K6zgLVZ+mmGhgnadUODqyz8RIW+1Q8HkTpoxFXSaWorEMTMuF6nvcje/vNqJdWSRQ2pADvENrUftb0N3vEOlCz91NKX71kVumaFLXtozVieuCSBR4=
