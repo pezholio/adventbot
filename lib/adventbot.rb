@@ -22,7 +22,8 @@ class Adventbot
       tweet = "There are #{days} days to go until Christmas!"
     end
 
-    pic = File.join("images", "#{days}.jpg")
+    image = "#{days}.jpg"
+    pic = File.join(File.dirname(__FILE__), "images", image)
 
     twitter.update(tweet)
     twitter.update_profile_image(File.new(pic))
