@@ -25,7 +25,7 @@ class Adventbot
     pic = File.join("images", "#{days}.jpg")
 
     twitter.update(tweet)
-    twitter.update_profile_image(pic)
+    twitter.update_profile_image(File.new(pic))
   end
 
   def self.twitter
